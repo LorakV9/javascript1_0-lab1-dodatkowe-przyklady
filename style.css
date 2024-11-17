@@ -1,23 +1,35 @@
-body {
-    background-color: aliceblue;
+#przyklad1_content {
+  margin-top: 10px;
+  font-size: 16px;
+  color: darkgreen;
+}
+
+#przyklad2_content {
+  margin-top: 10px;
+  font-size: 14px;
+  color: blue;
+}
+
+  #przyklad3_progress_container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border: 1px solid #000;
+    height: 20px;
+    margin: 10px 0;
+    position: relative;
   }
-  
-  .ex {
-    padding: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+
+  #przyklad3_progress {
+    width: 0;
+    height: 100%;
+    background-color: green;
+    transition: width 0.3s;
   }
-  
-  #ex3_one, #ex3_two {
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-    height: 50px;
+
+  #przyklad3_content {
+    margin-top: 10px;
+    font-size: 16px;
+    color: darkred;
   }
-  
-  #ex3_element {
-    display: 'block';
-    cursor: pointer;
-    background-color: red;
-    width: 100px;
-  }
+
+}
